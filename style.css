@@ -1,0 +1,30 @@
+.box{
+    color: rgb(0, 255, 17);
+    width: 500px;
+    background: #eee;
+    border: 3px solid currentColor;
+}
+.sub{
+    
+    width: 80px;
+    height: 60px;
+    margin-top: 10px;
+    background-color: currentColor;
+}
+.box h1{
+    background-color: gray !important;
+    text-decoration: underline currentColor wavy;
+    text-decoration-thickness: 5px;
+}
+.list ul li{
+    list-style-type:'♠ -';
+}
+ul li::marker{
+    
+    color: blueviolet;
+    text-decoration: '→';
+}
+input:placeholder-shown{
+    background-color: antiquewhite;
+    border: 3px dashed red;
+}
